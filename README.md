@@ -1,5 +1,9 @@
 # Auotosignin
   这是一个自动签到脚本，可以帮助用户在指定网站上自动完成签到操作。
+  
+## English Version
+You can find the English instructions [here](README_EN.md).
+
 ## 功能
 - 自动登录指定网站
 - 自动签到

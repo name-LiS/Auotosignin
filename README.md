@@ -17,15 +17,13 @@ You can find the English instructions [here](README_EN.md).
     下载源码安装相关依赖或使用打包好的exe文件
 ### 使用教程
 #### 配置说明
-  将exe文件部署到指定文件，首次运行会在当前文件路径下生成config文件，文件格式如下：
-  
-'''json
-  {
+  将 exe 文件部署到指定文件夹，首次运行会在当前路径下生成 `config.json` 文件，格式如下：
 
-      "handle_login": false,
-    
-      "auto_sign_all": true
-  }
+```json
+{
+    "handle_login": false,
+    "auto_sign_all": true
+}
 
   第一项为是否手动登录并保存cookie（在初次登录某网站时使用），选取后手动登录并等待自动保存cookie，记得在后续使用时关闭
 

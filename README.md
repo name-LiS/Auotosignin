@@ -24,10 +24,11 @@ You can find the English instructions [here](README_EN.md).
     "handle_login": false,
     "auto_sign_all": true
 }
+```
 
-  第一项为是否手动登录并保存cookie（在初次登录某网站时使用），选取后手动登录并等待自动保存cookie，记得在后续使用时关闭
+第一项为是否手动登录并保存cookie（在初次登录某网站时使用），选取后手动登录并等待自动保存cookie，记得在后续使用时关闭
 
-  第二项为是否启动自动登录，开启后会自动读取urls文件中的网址，并读取cookies文件中的对于cookie登录并自动签到
+第二项为是否启动自动登录，开启后会自动读取urls文件中的网址，并读取cookies文件中的对于cookie登录并自动签到
 
 #### 自动签到
   在配置好网址并获取了相应cookie后可以进行自动登录/签到设置：结合windows的自动计划可以方便实现定时登录/签到

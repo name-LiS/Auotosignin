@@ -18,7 +18,7 @@ You can find the English instructions [here](README_EN.md).
 ### 使用教程
 #### 配置说明
   将exe文件部署到指定文件，首次运行会在当前文件路径下生成config文件，文件格式如下：
-
+'''json
   {
 
       "handle_login": false,
